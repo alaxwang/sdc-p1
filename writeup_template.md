@@ -30,3 +30,11 @@ vertices
 3, do the course test code do
 
 4, average left, right line's m and b. And recalculate the two line, draw with thickness=8
+
+Potential Shortage and possible improvements:
+
+The vertices range might not robust enough, it's very depended on camera position and angle in car.
+
+And it might have a smooth function for video processing.
+
+for the merged lane or not regualr two parallel lanes, cannot work well.
