@@ -22,8 +22,11 @@ The goals / steps of this project are the following:
 ### Reflection
 
 1, filter out yellow and white color by cv.inrange(), convert to hsv image
+
 2, set the vertices  as np.array([[(0, imshape[0]), (imshape[1]*2/5, imshape[0]*5/8),
     (imshape[1]*3/5, imshape[0]*5/8), (imshape[1],imshape[0])]], dtype=np.int32) instead of fixing
 vertices
+
 3, do the course test code do
+
 4, average left, right line's m and b. And recalculate the two line, draw with thickness=8
